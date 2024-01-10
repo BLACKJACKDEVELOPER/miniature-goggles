@@ -8,7 +8,7 @@ const fs = require("fs")
 const app = express();
 const server = createServer(app);
 const io = new Server(server,{
-    cors:"http://172.20.67.98:80",
+    cors:"https://432c-202-29-220-186.ngrok-free.app",
     maxHttpBufferSize:"5e8"
 });
 
